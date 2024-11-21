@@ -25,13 +25,15 @@ Use your knowledge of logistic regression to complete the following steps:
 - An overview of the analysis: The purpose of this analysis is to create and evaluate the accuracy of a data model that predicts the credity worthiness of potential borrowers from peer-to-peer lending services
 - The results:
   - Accuracy Score: The overall accuracy of the model is 99%.
-  - F1-score are all 0.99
+  - F1-score:
+    - Class 0: 100% 
+    - Class 1: 90% 
   - Precision Score:
     - Class 0: 1.00 (Healthy loans).
     - Class 1: 0.86 (High-risk loans).
     - Macro average: 0.93.
     - Weighted average: 0.99
   - Recall Score:
-    - Class 0: 0.99 (indicating almost all true positives were correctly identified).
-    - Class 1: 0.94 (indicating good sensitivity for the minority class).
+    - Class 0: 0.99 
+    - Class 1: 0.94 
 - Summary: The dataset contains a significant class imbalance (15001 healthy loans vs. 507 high-risk loans). Despite this, the model maintains high recall and precision for the minority class, demonstrating its effectiveness in handling real-world, imbalanced datasets. Overal, this model indicates good balance between identifying high-risk loans and accurately classifying healthy loans, making it a valuable tool for the company’s loan evaluation processes. 
